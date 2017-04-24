@@ -20,21 +20,28 @@ Resposta:
 
 3 - Renomear o arquivo prova1-2017.txt da sua pasta para prova1-seunome.txt . 
 Ex.: prova1-alex.txt
-Resposta (Qual comando você utilizou?):
+Resposta (Qual comando você utilizou?):Ctrl + O (Gravar) e alterar o nome.Para tal procedimento sem ser pelo nano seria:
+mv prova1-2017.txt prova-filipetrigueiro.txt
 
 
 4 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
 sequencia 1, 2 e 3. 
 Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
-Resposta:
+Resposta: touch filipe1.txt filipe2.txt filipe3.txt
+
 
 5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
 3 arquivos criandos anteriormente para esta pasta.
-Resposta:
+Resposta: mkdir filipe02
+mv filipe1.txt filipe02/
+mv filipe2.txt filipe02/
+mv filipe3.txt filipe02/
+
 
 6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
 que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
 Resposta:
+ls -l filipe*.txt
 
 7 - Existe um arquivo chamado access.log na sua pasta log. 
 Qual é o ip que aparece no arquivo com mais frequencia e 
